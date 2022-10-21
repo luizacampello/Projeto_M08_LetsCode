@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+
+* {background-color: #283B39}
+
+h1{
+    font-family: 'Limelight', cursive;
+    color: #FEE9BB;
+}
+
+h2{
+    font-family: 'Limelight', cursive;
+    color: #FEE9BB;
+}
+
+p{
+    font-family: Verdana;
+    color: #648887;
+}
+
+.headerIframe{
+    border: none;
+    height: 150px;     
+}
+
+.footerIframe{
+    border: none;
+    height: 300px;     
+}
