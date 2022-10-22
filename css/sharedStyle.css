@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 
-* {background-color: #283B39}
+/* * {background-color: #283B39} */
 
 h1{
     font-family: 'Limelight', cursive;
@@ -17,12 +17,52 @@ p{
     color: #648887;
 }
 
-.headerIframe{
+/* .headerIframe{
+    flex-flow: column;
     border: none;
-    height: 150px;     
+    overflow: hidden;
+    width: 100%;
+    height: 10em;     
 }
 
 .footerIframe{
+    flex-shrink: 0;
+    background-color: #648887;
     border: none;
-    height: 300px;     
-}
+    width: 100%;
+    height: 20em;
+} */
+
+* {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;   
+    }
+    
+    body {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    header {
+    height: 5em;
+    background-color: khaki;
+    border: none;
+    width: 100%;
+    }
+    
+    main {
+    flex: auto;
+    background-color: pink;
+    border: none;
+    width: 100%;
+    }
+    
+    footer {
+    height: 20em;
+    background-color: #648887;
+    border: none;
+    width: 100%;
+    }
