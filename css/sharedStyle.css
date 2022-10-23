@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 
-/* * {background-color: #283B39} */
+*{
+    margin:0%;
+    background-color: #283B39;
+}
 
 h1{
     font-family: 'Limelight', cursive;
@@ -17,52 +20,78 @@ p{
     color: #648887;
 }
 
-/* .headerIframe{
-    flex-flow: column;
-    border: none;
-    overflow: hidden;
+footer{
+    position: absolute;
     width: 100%;
-    height: 10em;     
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footerIframe{
-    flex-shrink: 0;
     background-color: #648887;
     border: none;
     width: 100%;
-    height: 20em;
-} */
+    height: 20vh;
+}
 
-* {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;   
-    }
-    
-    body {
-    display: flex;
-    flex-direction: column;
-    }
-    
-    header {
-    height: 5em;
-    background-color: khaki;
+main{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #FEE9BB;
     border: none;
     width: 100%;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    font-family: 'Limelight', cursive;
+    background-color: #FEE9BB;
+    color: #283B39;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: clamp(0.75rem, 0.5rem + 8vw, 1.25rem);
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header-right a:hover {
+    background-color: #FEE9BB;
+    color: #283B39;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: #283B39;
+    color: #FEE9BB;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
     }
-    
-    main {
-    flex: auto;
-    background-color: pink;
-    border: none;
-    width: 100%;
+    .header-right {
+      float: none;
     }
-    
-    footer {
-    height: 20em;
-    background-color: #648887;
-    border: none;
-    width: 100%;
-    }
+  }
