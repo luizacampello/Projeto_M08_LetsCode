@@ -1,0 +1,49 @@
+.header {
+    overflow: hidden;
+    background-color: #FEE9BB;
+    border: none;
+    width: 100%;
+  }
+  
+  .header a {
+    float: left;
+    font-family: 'Limelight', cursive;
+    background-color: #FEE9BB;
+    color: #283B39;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: clamp(0.75rem, 0.5rem + 8vw, 1.25rem);
+    line-height: 25px;
+    border-radius: 4px;
+  }
+    
+  .header a.logo {
+    font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
+    font-weight: bold;
+  }
+  
+  .header-right a:hover {
+    background-color: #FEE9BB;
+    color: #283B39;
+  }
+  
+  .header a.active {
+    background-color: #283B39;
+    color: #FEE9BB;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
