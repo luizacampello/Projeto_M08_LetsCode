@@ -7,7 +7,7 @@
   
   .header a {
     float: left;
-    font-family: 'Limelight', cursive;
+    font-family: 'Noto Serif', serif;
     background-color: #FEE9BB;
     color: #283B39;
     text-align: center;
@@ -19,6 +19,7 @@
   }
     
   .header a.logo {
+    font-family: 'Limelight', cursive;
     font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
     font-weight: bold;
   }
