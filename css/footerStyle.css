@@ -1,41 +1,47 @@
 footer{
-  background-color: #648887; 
+  background-color: #648887;
+  margin:0;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   text-align: center;
 }
 
 .footer-left{  
   display: flex;
-  width:80em;
+  width:40em;
   flex-direction: column;
   align-items: center;
   align-content: stretch;
   text-align: center;
-  padding: 2em;
+  padding-top: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 
 .footer-right{
-  width: 20em;
+  width: 40em;
   align-content: center;
   text-align: center;
-  padding: 2em;
+  padding-top: 1vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
 }
 
-
 .pfooter{
-    font-family: 'Lato', sans-serif;
-    color: #FEE9BB;
-    text-align: justify;
+  font-size: 0.9rem;    
+  font-family: 'Lato', sans-serif;
+  color: #FEE9BB;
+  text-align: center;
 }
 
 .afooter{
-    text-decoration: none;
-    color: #FEE9BB;
+  text-decoration: none;
+  color: #FEE9BB;
 }
 
 .logofooter{
-  font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
+  font-size: clamp(1.0rem, 0.5rem + 16vw, 1.6rem);
   font-weight: bold;
 }
 
@@ -43,7 +49,7 @@ footer{
   list-style: none;
   margin: 1em;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: #FEE9BB; 
 }
 
