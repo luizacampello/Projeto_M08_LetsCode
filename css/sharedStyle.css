@@ -8,6 +8,9 @@
 
 body{
   background-color:#283B39 ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
@@ -29,16 +32,12 @@ p{
 main{
     margin-top: 2vh;
     margin-bottom: 2vh;
-}
-
-p{
-    font-family: Verdana;
-    color: #FEE9BB;
-    font-size: 12px;
-    
+    flex: 1;
 }
 
 a{
     text-decoration: none;
 }
+
+
 
