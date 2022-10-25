@@ -1,38 +1,30 @@
-footer{
-    
-    background-color: #648887;  
-    
+footer{    
+  background-color: #648887;      
 }
 
 .footer-left{
-       
-    width:100;
-    align-items: center;
-    text-align: center;
-    padding: 2em;
+  width:100;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
 }
 
 
 .pfooter{
-    font-family: Verdana;
-    color: #FEE9BB;
-    font-size: 12px;
-  
+  font-family: Verdana;
+  color: #FEE9BB;
+  font-size: 12px;  
 }
 
 .afooter{
-    text-decoration: none;
-    color: #FEE9BB;
+  text-decoration: none;
+  color: #FEE9BB;
 }
-
-.
 
 .footerLogo{
   font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
   font-weight: bold;
 }
-
-l
 
 h3{
   
