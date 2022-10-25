@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 *{
   margin:0%;
@@ -14,24 +16,27 @@ body{
 }
 
 h1{
-    font-family: 'Limelight', cursive;
+    font-family: 'Noto Serif', serif;
     color: #FEE9BB;
 }
 
 h2{
-    font-family: 'Limelight', cursive;
+    font-family: 'Noto Serif', serif;
     color: #FEE9BB;
 }
 
 p{
-    font-family: Verdana;
+    font-family: 'Lato', sans-serif;
     color: #648887;
+    font-size: 1.2rem;
 }
 
 
-main{
+.main{
     margin-top: 2vh;
     margin-bottom: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
     flex: 1;
 }
 
