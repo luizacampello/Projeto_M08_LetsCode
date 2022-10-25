@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 
 *{
-    margin:0%;
-    background-color: #283B39;
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#283B39 ;
 }
 
 h1{
@@ -24,7 +29,6 @@ p{
 main{
     margin-top: 2vh;
     margin-bottom: 2vh;
-    background-color: #283B39;
 }
 
 p{
@@ -37,3 +41,4 @@ p{
 a{
     text-decoration: none;
 }
+
