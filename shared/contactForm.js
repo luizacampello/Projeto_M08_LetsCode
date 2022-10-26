@@ -1,7 +1,7 @@
 let form = document.querySelector("form");
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    document.querySelector("#sub").value = "Submiting..";
+    document.querySelector("#sub").textContent = "Enviado";
     let data = new FormData(form);
     fetch('https://script.google.com/macros/s/AKfycby8P52vvBOgNIBz2iWLBMHkQycqLzRc5cYF60cAUd0dy6BJ1bOIda0oeQttb5aNnuv2NQ/exec', {
             method: "POST",
