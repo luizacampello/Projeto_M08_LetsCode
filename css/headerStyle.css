@@ -13,14 +13,14 @@
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: clamp(0.75rem, 0.5rem + 8vw, 1.25rem);
+    font-size: clamp(0.5rem, 0.5rem + 10vw, 1.25rem);
     line-height: 25px;
     border-radius: 4px;
   }
     
   .header a.logo {
     font-family: 'Limelight', cursive;
-    font-size: clamp(1.5rem, 1rem + 16vw, 2.5rem);
+    font-size: clamp(1.0rem, 1rem + 20vw, 2.5rem);
     font-weight: bold;
   }
   
