@@ -134,13 +134,13 @@
   justify-content: space-around;
   margin-top: 2rem;
   margin-left: 2rem;
-  margin-right: 2rem;
   height: 75%;
 }
 
 .text-preview p {
   text-align: justify;
   font-size: 1.1rem;
+  margin-bottom: 2vw;
 }
 
 @media (max-width: 950px) {

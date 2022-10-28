@@ -18,9 +18,7 @@
   color: #648887;
 }
 
-.send-button, 
-.button-preview button, 
-.booking-button button {
+.arrow-button {
   min-width: 6rem;
   height: 2.5rem;
   color: #fff;
@@ -37,35 +35,27 @@
   background-color: #3c7c7e;
 }
 
-.button-preview button,
-.booking-button button {
-  margin-top: 3rem;
-}
 
-.button-preview a {
+
+.arrow-button :after{
   color: #fff;
   min-width: 130px;
   height: 40px;
 }
 
-.booking-button :hover,
-.send-button:hover,
-.button-preview button:hover {
+.arrow-button:hover {
   border-radius: 5px;
   padding-right: 24px;
   padding-left: 8px;
 }
 
-.booking-button button:hover:after,
-.send-button:hover:after,
-.button-preview button:hover:after {
+.arrow-button:hover:after{
   opacity: 1;
   right: 10px;
 }
 
-.booking-button button:after,
-.send-button:after,
-.button-preview button:after {
+
+.arrow-button:after{
   content: "\00BB";
   position: absolute;
   opacity: 0;
