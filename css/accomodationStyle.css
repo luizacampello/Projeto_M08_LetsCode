@@ -10,13 +10,13 @@
     border-radius: 0.5rem;
 }
 
-
 .slider{
     width: 50%;
     display: flex;
     margin-left: 3rem;
     flex-wrap: wrap;
 }
+
 .img-slide{
     width:30vw;
 }
@@ -54,9 +54,7 @@
     80%{left:-120vw}
     95%{left:-120vw}
     100%{left:0vw}
-
 }
-
 
 .accomodation-content{
     display: flex;
@@ -69,16 +67,14 @@
     text-align: justify;
 }
 
-
-  .accomodation-name{
-    margin-bottom: 2.5rem;
-  }
-
-  .accomodation-name h1{
+.accomodation-name{
+margin-bottom: 2.5rem;
+}
+    .accomodation-name h1{
     color: #3c7c7e;
-  }
+    }
 
-  .accomodation-name h1::after {
+    .accomodation-name h1::after {
     content: "";
     display: block;
     width: 5rem;
@@ -87,5 +83,5 @@
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
-}
+    }
 
