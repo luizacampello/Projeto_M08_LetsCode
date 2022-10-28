@@ -1,0 +1,91 @@
+
+.accomodation{
+    display: flex;
+    width: 90%;
+    height: auto;
+    background-color: #282828;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.slider{
+    width: 50%;
+    display: flex;
+    margin-left: 3rem;
+    flex-wrap: wrap;
+}
+
+.img-slide{
+    width:30vw;
+}
+
+.image-slider{
+    width: 30vw;
+    height: 18vw;
+    border-radius: 0.5rem;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.212);
+    overflow: hidden;
+}
+
+.image-slider ul{
+    display: flex;
+    list-style-type: none;
+    width: 150vw;
+    height: 20vw;
+}
+
+.image-slider li{
+    position: relative;
+    animation: slide 25s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left:0vw}
+    15%{left:0vw}
+    20%{left:-30vw}
+    35%{left:-30vw}
+    40%{left:-60vw}
+    55%{left:-60vw}
+    60%{left:-90vw}
+    75%{left:-90vw}
+    80%{left:-120vw}
+    95%{left:-120vw}
+    100%{left:0vw}
+}
+
+.accomodation-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.accom-box-button{
+    margin-top: 3rem;
+}
+
+.text-content{
+    text-align: justify;
+}
+
+.accomodation-name{
+margin-bottom: 2.5rem;
+}
+    .accomodation-name h1{
+    color: #3c7c7e;
+    }
+
+    .accomodation-name h1::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #3c7c7e;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    }
+

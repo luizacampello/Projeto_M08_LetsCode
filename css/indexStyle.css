@@ -1,73 +1,215 @@
 .about {
+  position: relative;
+  margin: 0%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.about h1 {
+  text-align: center;
+  font-size: clamp(1rem, 1rem + 10vw, 8rem);
+  font-family: "Limelight";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.subtext {
+  font-size: clamp(0.5rem, 0.5rem + 5vw, 4rem);
+  font-family: "Limelight";
+  color: #fee9bb;
+}
+
+.video-container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.video-container video {
+  max-height: 200%;
+  min-width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.preview {
+  height: auto;
+}
+
+.nav-tabs {
+  width: 100%;
+  height: 35rem;
+  margin: 100px auto;
+  background-color: #fee9bb;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.nav-tabs ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-tabs ul li {
+  float: left;
+}
+
+.nav-tabs label {
+  width: 100%;
+  padding: 2rem;
+  font-family: 'Noto Serif', serif;
+  font-size: clamp(0.5rem, 0.5rem + 10vw, 1.5rem);
+  align-items: center;
+  background-color: #fee9bb;
+  display: flex;
+  flex-direction: column;
+  color: #283b39;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rd-tabs:checked ~ label {
+  font-weight: bold;
+}
+
+.nav-tabs .rd-tabs {
+  display: none;
+}
+
+.content-tabs {
+  border-top: solid 5px #283b39;
+  display: none;
+  position: absolute;
+  height: 35rem;
+  width: 100%;
+  left: 0;
+}
+
+.rd-tabs:checked ~ .content-tabs {
+  display: flex;
+}
+
+.content-tabs article {
+  padding: 4rem;
+  display: flex;
+}
+
+.container-preview {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.image {
+  width: 50%;
+  height: 90%;
+}
+
+.image img {
+  width: 37vw;
+  border-radius: 0.5rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 75%;
+}
+
+.text-preview p {
+  text-align: justify;
+  font-size: 1.1rem;
+  margin-bottom: 2vw;
+}
+
+@media (max-width: 950px) {
+  .nav-tabs {
+    height: 44rem;
+  }
+
+  .content-tabs article {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .container-preview {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .rd-tabs:checked ~ .content-tabs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
     position: relative;
     margin: 0%;
     width: 100%;
-    height: 70vh;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-    .about h1 {
-        text-align: center;
-        font-size: clamp(1.0rem, 1rem + 10vw, 8rem);
-        font-family: "Limelight";
-        padding: 20px;
-        margin: 15px;
-        z-index: 1;
-        opacity: 0.7;
-    }
-
-.subtext{
-    font-size: clamp(0.5rem, 0.5rem + 5vw, 4rem);
-    font-family: "Limelight";
-    color: #FEE9BB;
-}
-
-.video-container{
-    position: absolute;
-    width:100%;
-    top: 0;
-    left: 0;
-}
-
-.video-container video{
-    max-height:200%;
-    min-width: 100%;
-}
-  
-.color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: lightblue;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.5;
-}
-
-@media (max-width:500px) {
-    .about{
-        position: relative;
-        margin: 0%;
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-    .about h1 {
-        font-size: 1.5rem;
-        padding: 1vw;
-        margin: 1vw;
-        z-index: 1;
-        opacity: 0.7;
-    }
-
-    .subtext{
-        font-size: 1rem;
-        font-family: "Limelight";
-        color: #FEE9BB;
-    }
   }
+  .about h1 {
+    font-size: 1.5rem;
+    padding: 1vw;
+    margin: 1vw;
+    z-index: 1;
+    opacity: 0.7;
+  }
+
+  .subtext {
+    font-size: 1rem;
+    font-family: "Limelight";
+    color: #fee9bb;
+  }
+
+  .nav-tabs {
+    height: 50rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-tabs {
+    height: 73rem;
+  }
+
+  .image {
+    margin-bottom: 3rem;
+  }
+}
