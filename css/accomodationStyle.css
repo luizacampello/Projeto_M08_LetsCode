@@ -1,10 +1,11 @@
 
 .accomodation{
     display: flex;
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: #282828;
-    margin: auto;
+    justify-content: center;
+
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
@@ -126,5 +127,12 @@ margin-bottom: 2.5rem;
         100%{left:0vw}
     }
 
+    
+}
+
+@media (max-width: 500px) {
+    .accomodation-content{
+    padding: 1.5rem;
+    }
     
 }
