@@ -165,6 +165,10 @@
     height: auto;
     margin-top: 1rem;
   }
+
+  .text-content {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -173,6 +177,8 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+
 }
 
 @media (max-width: 500px) {
@@ -203,9 +209,13 @@
   .nav-tabs {
     height: 50rem;
   }
+
+  .text-content {
+    margin-left: auto;
+  }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .nav-tabs {
     height: 73rem;
   }
@@ -213,4 +223,19 @@
   .image {
     margin-bottom: 3rem;
   }
+
+  .image img{
+    width: 90%;
+    height: 80%;
+  }
+
+  .nav-tabs label {
+    width: 9vw;
+    font-size: clamp(0.5rem, 0.5rem + 10vw, 1.0rem);
+  }
+
+  .text-content {
+    margin-left: auto;
+  }
+
 }

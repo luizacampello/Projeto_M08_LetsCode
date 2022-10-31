@@ -105,6 +105,20 @@
     margin-right: 7rem;
  }
 }
+
+@media screen and (max-width: 400px){
+    .form{
+        width: 90vw;
+    }
+
+    .input-box input, .select-box select {
+        width: 75vw;
+    }
+
+    .form-header h1 {
+        width: 6vw;
+    }
+}
     
 
 
