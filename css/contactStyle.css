@@ -100,5 +100,11 @@
     font-size: 1em;
 }
 
+@media screen and (min-width: 1472px){
+ .input-group{
+    margin-right: 7rem;
+ }
+}
+    
 
 

@@ -89,3 +89,42 @@ margin-bottom: 2.5rem;
     border-radius: 10px;
     }
 
+    @media (max-width: 600px) {
+    .accomodation{
+        display: block;
+    }
+
+    .slider{
+        margin: auto auto;
+    }
+
+    .img-slide{
+        width: 40vw;
+    }
+
+    .image-slider{
+        width: 40vw;
+        height: 24vw;
+    }
+
+    .image-slider ul{
+        width: 200vw;
+        height: 24vw;
+    }
+
+    @keyframes slide{
+        0%{left:0vw}
+        15%{left:0vw}
+        20%{left:-40vw}
+        35%{left:-40vw}
+        40%{left:-80vw}
+        55%{left:-80vw}
+        60%{left:-120vw}
+        75%{left:-120vw}
+        80%{left:-160vw}
+        95%{left:-160vw}
+        100%{left:0vw}
+    }
+
+    
+}
