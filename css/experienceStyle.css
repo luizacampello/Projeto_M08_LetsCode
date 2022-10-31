@@ -1,3 +1,11 @@
+.exp-Box{
+    background-color: #282828;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
 .textBox{
     display: flex;
     flex-direction: column;
@@ -10,11 +18,12 @@
     text-indent: 2rem;
 }
 
-.textBox h2{
-    padding-bottom: 1rem;
+.textBox h1{
+    text-align: justify;
+    padding-bottom: 2rem;
 }
 
-.textBox h2::after{
+.textBox h1::after{
     content: "";
     display: block;
     width: 3rem;
