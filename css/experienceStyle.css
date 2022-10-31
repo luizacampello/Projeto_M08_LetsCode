@@ -1,38 +1,37 @@
 .exp-Box{
     background-color: #282828;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
     border-radius: 0.5rem;
 }
 
 .textBox{
     display: flex;
     flex-direction: column;
-    padding:2rem;
-}
+    padding:4vh;
+    }
 
-.textBox p{
-    text-align: justify;
-    text-justify: inter-word;
-    text-indent: 2rem;
-}
+    .textBox p{
+        text-align: justify;
+        text-justify: inter-word;
+        text-indent: 4vh;
+    }
 
-.textBox h1{
-    text-align: justify;
-    padding-bottom: 2rem;
-}
+    .textBox h1{
+        text-align: justify;
+        padding-bottom: 4vh;
+    }
 
-.textBox h1::after{
-    content: "";
-    display: block;
-    width: 3rem;
-    height: 0.2rem;
-    background-color: #FEE9BB;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
+    .textBox h1::after{
+        content: "";
+        display: block;
+        width: 3rem;
+        height: 0.2rem;
+        background-color: #FEE9BB;
+        margin: 0 auto;
+        position: absolute;
+        border-radius: 10px;
+    }
 
 .imgBox{
     padding:2rem;
