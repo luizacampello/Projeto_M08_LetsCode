@@ -32,6 +32,7 @@
   border-radius: 0.5rem;
   background-color: #648887;
   margin-top: 2rem;
+
   }
 
   .whyUs h2{
@@ -49,7 +50,9 @@
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .whyUsContent{
@@ -93,33 +96,33 @@
   background-color: #fee9bb;
   position: relative;
   border-radius: 0.5rem;
-}
+  }
 
-.nav-tabs ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  align-items: center;
-}
+  .nav-tabs ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  }
 
-.nav-tabs ul li {
-  float: left;
-}
+  .nav-tabs ul li {
+    float: left;
+  }
 
-.nav-tabs label {
-  width: 100%;
-  padding: 2rem;
-  font-family: 'Noto Serif', serif;
-  font-size: clamp(0.5rem, 0.5rem + 10vw, 1.5rem);
-  align-items: center;
-  background-color: #fee9bb;
-  display: flex;
-  flex-direction: column;
-  color: #283b39;
-  text-align: center;
-  cursor: pointer;
-}
+  .nav-tabs label {
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Noto Serif', serif;
+    font-size: clamp(0.5rem, 0.5rem + 10vw, 1.5rem);
+    align-items: center;
+    background-color: #fee9bb;
+    display: flex;
+    flex-direction: column;
+    color: #283b39;
+    text-align: center;
+    cursor: pointer;
+  }
 
 .rd-tabs:checked ~ label {
   font-weight: bold;
@@ -156,13 +159,13 @@
 .image {
   width: 50%;
   height: 90%;
-}
+  }
 
-.image img {
-  width: 34vw;
-  height: 18vw;
-  border-radius: 0.5rem;
-}
+  .image img {
+    width: 34vw;
+    height: 18vw;
+    border-radius: 0.5rem;
+  }
 
 .text-content {
   display: flex;
@@ -176,7 +179,6 @@
 
 .text-preview p {
   text-align: justify;
-  font-size: 1.1rem;
   margin-bottom: 2vw;
 }
 
@@ -217,8 +219,6 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-
-
 }
 
 @media (max-width: 500px) {

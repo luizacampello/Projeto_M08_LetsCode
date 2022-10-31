@@ -26,7 +26,6 @@
     <main>   
         
         <div class = container>
-
             <div class = "form">
                 <form id = "reservationForm">
                     <div class = "form-header">
@@ -39,36 +38,36 @@
                     </div>
 
                     <div class="input-group">
-                        <div class="input-box">
+                        <div class="input-box" id="nome">
                             <label for="name">Nome</label>
                             <input id="name" type="text" name="name" placeholder='Digite seu nome' required><br><br>
                         </div>
                         
-                        <div class="input-box">
+                        <div class="input-box" id="email">
                             <label for="email">E-mail</label>
                             <input id="email" type="email" name="email" placeholder='Digite seu email' required><br><br>
                         </div>
-                        <div class="input-box">
+                        <div class="input-box" id="telefone">
                             <label for="phone">Telefone</label>
                             <input id="phone" type="tel" name="phone" placeholder='(xx) 9xxxx-xxxx' required><br><br>
                         </div>
                         
-                        <div class="input-box">
+                        <div class="input-box" id="nHospedes">
                             <label for="nGuests">Número de hospedes</label>
                             <input id="nGuests" type="number" name="nGuests" min="0" placeholder='Digite o número' oninput="validity.valid||(value='');" required><br><br>
                         </div>
 
-                        <div class="input-box">
+                        <div class="input-box" id="dataEntrada">
                             <label for="data1">Data de entrada</label>
                             <input id="data1" type="date" name="date1"  required><br><br>
                         </div>
 
-                        <div class="input-box">
+                        <div class="input-box" id="dataSaida">
                             <label for="data2">Data de saída</label>
                             <input id="data2" type="date" name="date2" required><br><br>
                         </div>
 
-                        <div class="select-box">
+                        <div class="select-box" id ="acomodacao">
                             <label for="accommodation">Escolha sua acomodação</label>
                             <select id="accommodation" name="accommodation" form="reservationForm">
                                 <option value="Default" selected disabled hidden>Acomodações</option>
@@ -77,15 +76,15 @@
                                 <option value="Brando Hotel">The Brando Hotel - Polinêsia Francesa</option>
                                 <option value="Glass Cottage">Glass Cottage - Islândia</option>
                             </select>
-                        </div>
-                        
+                        </div>                        
                     </div>                   
 
                 </form>
 
                 <div class="duvidas">
-                    <p>Em caso de dúvidas, ou se não encontrou a viagem dos seus sonhos, entre em contato conosco:</p>                  
-                    <p>contato@lanaland.com  &emsp;&emsp;Tel: (11) 4002-8922</p>
+                    <p>Para personalizar sua viagem ou em caso de dúvidas, entre em contato conosco:</p>                  
+                    <p><a href="mailto:contato@lanaland.com" target="_blank">contato@lanaland.com</a></p>
+                    <p>Tel: (11) 4002-8922</p>
                 </div>
             </div>
 
